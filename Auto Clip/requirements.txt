@@ -1,3 +1,0 @@
-google-antigravity
-moviepy
-openai-whisper
