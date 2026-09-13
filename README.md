@@ -1,17 +1,16 @@
-# AI Auto clipper (Vibe coded)
+# AI Auto Clipper (Vibe coded)
 
 AI Auto Clipper is an experimental, fully automated, short-form video generator powered by local transcription models (`openai-whisper`) and the Gemini AI (via `google-antigravity`).
 
-Drop in a 5-minute video, and the AI will analyze the speech, identify the most engaging highlights, slice them into 15-45 second short-form clips, and automatically apply dynamic colored overlays and subtitles.
+Drop in a long video, and the AI will analyze the speech, identify the most engaging highlights, slice them into standalone 15-45 second short-form clips, and automatically apply dynamic colored overlays and subtitles.
 
-## 🚀 How to Run
+## 📦 How to Download & Run
 
-1. Clone or download this repository.
-2. Ensure you have Python installed.
-3. Install the required dependencies:
+1. **Download:** Go to the Releases/Downloads folder on this page and click on the zip file you want (e.g., `Auto-Clip-V1.zip`). Extract the folder to your computer.
+2. Ensure you have Python installed on your system.
+3. Open a terminal in the extracted folder and install the required dependencies:
    ```cmd
    pip install -r requirements.txt
-   ```
 4. Double-click the **`run_autoclip.bat`** file to launch the editor.
 5. The very first time you run it, you will be asked to paste your **Gemini API Key** (obtainable from Google AI Studio). 
    - *Security Note: Your API Key is NOT saved in the project folder. It is securely generated and cached deep in your computer's `AppData` folder (`%APPDATA%/AutoClipAI/config.json`), keeping your key safe from accidental GitHub commits.*
