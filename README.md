@@ -13,7 +13,6 @@ Drop in a long video, and the AI will analyze the speech, identify the most enga
    pip install -r requirements.txt
 4. Double-click the **`run_autoclip.bat`** file to launch the editor.
 5. The very first time you run it, you will be asked to paste your **Gemini API Key** (obtainable from Google AI Studio). 
-   - *Security Note: Your API Key is NOT saved in the project folder. It is securely generated and cached deep in your computer's `AppData` folder (`%APPDATA%/AutoClipAI/config.json`), keeping your key safe from accidental GitHub commits.*
 6. Drag and drop a `.mp4` video file into the console, and let the AI process it!
 
 ## ⚙️ Technicalities & Architecture
